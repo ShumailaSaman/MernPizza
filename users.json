@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b00"
+  },
+  "name": "PEPPER BARBECUE CHICKEN",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/PepperBarbecueChicken.jpg",
+  "description": "Barbecue chicken consists of chicken parts or entire chickens that are barbecued, grilled or smoked. There are many global and regional preparation techniques and cooking styles. Barbecue chicken is often seasoned or coated in a spice rub, barbecue sauce, or both."
+},{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b01"
+  },
+  "name": "Non Veg Supreme",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/theme2/front/images/menu-images/my-nonveg.webp",
+  "description": "It is tough to find a Domino's pizza that you won't like, and the non veg supreme is one of them. Loaded with grilled chicken rashers, black olives, peri-peri chicken, grilled mushrooms, pepper BBQ chicken, and onions, this pizza is sure to create a flavor explosion in your mouth."
+},{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b02"
+  },
+  "name": "Golden Corn Pizza",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "veg",
+  "image": "https://www.dominos.co.in/files/items/PrimeCheesyL.jpg",
+  "description": "That's the famous sweet corn pizza from Domino's. A healthy pizza prepared with the goodness of sweet corn and cheese to give you that perfect satisfaction so order the Golden Corn Pizza from Domino's and you will fall in love with it."
+},{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b03"
+  },
+  "name": "Jalapeno & Red Paprika Pizza",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://cdn.vox-cdn.com/thumbor/0rOBWYZsqF51sLtmXhMVwaDxDBc=/0x0:2000x1994/1200x800/filters:focal(840x837:1160x1157)/cdn.vox-cdn.com/uploads/chorus_image/image/70215520/neony_pizza_works.0.jpg",
+  "description": "Drizzle with Cholula. Bacon and cream cheeseWhen baking jalapeno slices, you remove some of the moisture out of them which intensifies their flavor (and their heat). So if you like spicy pizza, put them on before the oven and you will get an intense pepper flavor"
+},{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b04"
+  },
+  "name": "Margherita Pizza",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://media.istockphoto.com/id/1168754685/photo/pizza-margarita-with-cheese-top-view-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=psLRwd-hX9R-S_iYU-sihB4Jx2aUlUr26fkVrxGDfNg=",
+  "description": " Pizza Margherita or Margherita pizza is a typical Neapolitan pizza, roundish in shape with a raised edge (the cornicione) and garnished with hand-crushed peeled tomatoes, mozzarella (buffalo mozzarella or fior di latte), fresh basil leaves, and extra virgin olive oil."
+},{
+  "_id": {
+    "$oid": "66dc26d52ffd698111eb4b05"
+  },
+  "name": "Double Cheese Margherita Pizza",
+  "variants": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "veg",
+  "image": "https://qph.cf2.quoracdn.net/main-qimg-778af4a88aa744125f1b2dae0a1368c5.webp",
+  "description": "Margherita pizza gets its name from Queen Margherita of Savoy, who was the Queen consort of Umberto I. It was once during her visit to Naples that the dish came into being. The story goes that the Queen was tired of eating French food all the time, as it was the cuisine of choice among the European royalty"
+},{
+  "_id": {
+    "$oid": "66ddbc2488c517d71935a429"
+  },
+  "name": "abc",
+  "email": "abc123@gmail.com",
+  "password": "1234",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-08T15:00:52.033Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-08T15:00:52.033Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ddbd6988c517d71935a42c"
+  },
+  "name": "xyz",
+  "email": "xyz123@gmail.com",
+  "password": "123",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-08T15:06:17.417Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-08T15:06:17.417Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ddc262a29132a79dba1f0c"
+  },
+  "name": "zxc",
+  "email": "zxc123@gmail.com",
+  "password": "123456",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-08T15:27:30.353Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-08T15:27:30.353Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66de9d327b667c1b34477178"
+  },
+  "name": "Shumaila",
+  "email": "shumailagmg@gmail.com",
+  "password": "Saman@1234",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2024-09-09T07:01:06.729Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-09T07:01:06.729Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66dea7afdcfe989a43a530ef"
+  },
+  "name": "john",
+  "email": "john123@gmail.com",
+  "password": "123456",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-09T07:45:51.733Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-09T07:45:51.733Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66deaae9bbe08ef49704d44a"
+  },
+  "name": "",
+  "email": "",
+  "password": "",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-09T07:59:37.590Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-09T07:59:37.590Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66e469fe3e570e962cf1d009"
+  },
+  "name": "Saman",
+  "email": "shumailagmg@gmail.com",
+  "password": "Saman@1234",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-09-13T16:36:14.048Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-13T16:36:14.048Z"
+  },
+  "__v": 0
+}]

@@ -1,55 +1,49 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@redux-devtools/extension": "^3.3.0",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.8",
-    "bootstrap": "^5.3.3",
-    "express": "^4.19.2",
-    "nodemon": "^3.1.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.1.2",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
-    "react-stripe-checkout": "^2.6.3",
-    "redux": "^5.0.1",
-    "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^3.1.0",
-    "web-vitals": "^2.1.4"
+  "name": "watchpack",
+  "version": "2.4.1",
+  "description": "",
+  "main": "./lib/watchpack.js",
+  "directories": {
+    "test": "test"
   },
+  "files": [
+    "lib/"
+  ],
   "scripts": {
-    "start": "react-app-rewired start",
-  "build": "react-app-rewired build",
-  "test": "react-app-rewired test",
-  "eject": "react-scripts eject"
+    "pretty-files": "prettier \"lib/**.*\" \"test/**/*.js\" --write",
+    "lint": "eslint lib",
+    "test:only": "mocha",
+    "test:coverage": "istanbul cover node_modules/mocha/bin/_mocha",
+    "pretest": "yarn lint",
+    "test": "mocha"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpack/watchpack.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Tobias Koppers @sokra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpack/watchpack/issues"
   },
-  "proxy": "http://localhost:5000/",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/webpack/watchpack",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^5.0.1",
+    "prettier": "^1.11.0",
+    "rimraf": "^2.6.2",
+    "should": "^8.3.1",
+    "write-file-atomic": "^3.0.1"
+  },
+  "dependencies": {
+    "glob-to-regexp": "^0.4.1",
+    "graceful-fs": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
 }

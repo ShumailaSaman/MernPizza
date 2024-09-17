@@ -1,0 +1,30 @@
+{
+  "name": "mern-pizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0",
+    "path-browserify": "^1.0.1",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.9",
+    "roter": "^0.0.3",
+    "stripe": "^16.10.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
+  }
+}
